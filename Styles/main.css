@@ -1,0 +1,109 @@
+body {
+    background-color: #aad4cf;
+}
+
+h1 {
+   margin: 0 0 20px 0;
+   padding: 50px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 60px;
+   line-height: 150px;
+   
+}
+
+header {
+    padding: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align:center;
+    color: white;
+    background-image: url(../Assets/lone-starfish-wide.jpg);
+    background-size:cover;
+    background-position:center; 
+}
+
+nav {
+    background-color: #d1edeb;
+    color: rgb(13, 13, 13);
+    padding: 10px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:inline;
+}
+
+li {
+    margin-right: 120px;
+    margin-left: 120px;
+    display: inline;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+
+.info-box{
+    background-color: #d1edeb;
+    padding: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0;
+}
+.info-box h2{
+    color: black;
+    margin-top: 5px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    float:left;
+    margin-right: 10px;
+}
+
+.info-box2 ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display:list-item;
+}
+
+.info-box2 li {
+    margin-right: 120px;
+    margin-left: 20px;
+    display:list-item;
+    text-align:justify;
+    list-style-type: square;
+}
+
+input[type="text"] {
+    width: 300px; 
+    height: 40px;
+    font-size: 18px; 
+    padding: 10px; 
+    box-sizing: border-box;
+}
+input[type="text1"] {
+    width: 1060px; 
+    height: 100px;
+    font-size: 18px; 
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+footer{
+        color: rgb(8, 8, 8);
+        padding: 10px;
+        text-align:right;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
